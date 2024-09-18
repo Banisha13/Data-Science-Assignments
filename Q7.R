@@ -1,0 +1,18 @@
+
+install.packages('dplyr')
+library(dplyr)
+Q7<-read.csv("C:\\Users\\DELL\\Downloads\\Q7.csv", header = TRUE)
+attach(Q7)
+head(Q7)
+summary(Q7)
+mode(Q7$Points)
+sd(Q7$Points)
+sd(Q7$Score)
+sd(Q7$Weigh)
+var(Q7$Points)
+var(Q7$Score)
+var(Q7$Weigh)
+
+max(Q7$Points)-min(Q7$Points)
+max(Q7$Score)-min(Q7$Score)
+max(Q7$Weigh)-min(Q7$Weigh)
